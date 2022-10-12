@@ -1,11 +1,64 @@
+<!-- DOCTYPE significa la version de html -->
 <!DOCTYPE html>
+<!-- HTML es toda la parte del esqueleto, es decir, todo lo que conforma el "archivo" -->
 <html lang="en">
-<head>
-
+  <!-- HEAD es la cabeza de la pagina, es solo el titulo de la pagina web que se mostrara en la pestaña -->
+  <head>
+    <!-- title como mencione es el titulo de la pagina, tambien aqui podemos agregar los estilos, los iconos y paquetes extras -->
     <title>HTML</title>
-</head>
-<body>
-    <h1>configurando git</h1>
-    <h2>practicando</h2>
-</body>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <!-- BODY es el cuerpo de la paginaweb, es todo lo que conforma la pagina imagenes texto links animaciones videos etc-->
+  <body>
+    <!-- DIV es para dividir elementos, Sirve para crear secciones o agrupar contenidos -->
+    <div>
+      <!-- H1,2,3,4,5,6 Encabezado de primer orden, son como los subtitulos de la pagina y va por jerarquias del mas importante al menos importante-->
+      <h1>PROGRAMACION</h1>
+      <h2>HTML</h2>
+      <h3>CSS</h3>
+      <!-- CLASS es un atributo: es una lista de las clases del elemento separada por espacios . Las clases permiten a CSS y Javascript seleccionar y acceder a elementos específicos a través de los selectores de clase o funciones como el método del DOM-->
+      <div class="segundo-div">
+        <h4>JAVA</h4>
+        <h5>SCRIPT</h5>
+      </div>
+    </div>
+    <h6>OTROS</h6>
+    <!-- P es un parrafo puede ser una descripcion de algo de la pagina web -->
+    <p>
+      <!-- LOREM es un creador de parrafo automatico pudes colocar un numero despues de "lorem10" para indicar la cantidad de palabras que quieres que aparezcan -->
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt,
+      aperiam!
+    </p>
+    <p>
+      <!-- BR es un salto de linea no tiene cierre es solo de apertura -->
+      ejemplo: es HTML<br />
+      es la nueva versión de HTML, el lenguaje de marcado con el que se crea la
+      estructura y el contenido de las páginas web. Esta nueva versión intenta
+      aumentar la potencia del lenguaje para conseguir aplicaciones web cada vez
+      más complejas.)
+    </p>
+    <!-- HR es una linea de separacion entre cada parrafo -->
+    <hr />
+    <!-- IMG es para insertar una imagen 
+        SRC es un atributo (cada etiqueta tienes diferentes atributos) que es la ruta de la imagen que quiero usar, ALT es un texto alternativo a la imagen cuando no carga (es una descripcion de la imagne)  -->
+    <img
+      src="https://th.bing.com/th/id/OIP.s0_1L60wvPryGTmlp82xzgHaFj?pid=ImgDet&rs=1"
+      alt="HTML icono"
+    />
+    <!-- A es una etiqueta de enlace, para acceder a links de internet, HREF me permmite agregar el link de la pagina web de hecho si o si ahi tengo que colocarlo y TARGET=_BLANK me permite abrir ese link o ese vinculo en otra pestaña u otra pagina nueva -->
+    <a
+      href="https://sites.google.com/site/dwebhtml/reference/tags"
+      target="_blank"
+      >Etiquetas y atributos</a
+    >
+    <div class="padre">
+      <div class="hijo"></div>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis soluta,
+      excepturi quis maxime, illum tenetur quas iste officia,
+      <!-- SPAN es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos en línea -->
+      <span>atque velit dolorum ullam adipisci culpa tempore.</span>
+    </p>
+  </body>
 </html>

@@ -1,1 +1,28 @@
-estilos
+h1 {
+  color: green;
+}
+
+p {
+  color: violet;
+}
+div {
+  color: brown;
+}
+/* . es un atajo para CLASS en vez de poner "segundo-div" solo se pone un . antes del texto */
+.segundo-div {
+  color: crimson;
+}
+.padre {
+  background: #f23b00;
+  height: 300px;
+  width: 300px;
+  padding: 50px;
+}
+.hijo {
+  height: 100px;
+  background: black;
+  width: 100px;
+}
+p span {
+  color: rebeccapurple;
+}
